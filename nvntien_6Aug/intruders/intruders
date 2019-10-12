@@ -1,0 +1,2 @@
+#!/bin/sh
+cat access.log | cut -d "-" -f1 | tail -412 | sort | uniq -c | sort -g

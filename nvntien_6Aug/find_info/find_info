@@ -1,0 +1,2 @@
+#!/bin/sh
+ls -a -S -r | grep -i -e"a" -e"e" -e"i" -e"o" -e"u"

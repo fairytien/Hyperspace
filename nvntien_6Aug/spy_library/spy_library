@@ -1,0 +1,2 @@
+#!/bin/sh
+cat books | grep -i spy | grep -v -i -e "mata" -e "hari"

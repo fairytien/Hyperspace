@@ -1,0 +1,74 @@
+GAME IDEAS
+
+Catch the insects:
+	+ Objects: bees, butterflies, grasshoppers?
+	+ Background: simple not to confuse the players with the objects
+	+ Music: gentle, to soothe the irritation the game may cause for the players
+	+ Sound played when catching insects
+	+ Rules: use a net to catch as many insects as possible
+		- 60 secs/ round by default
+		- many bonuses: time extension, freeze the insects for 5 secs, rainbow effect, bigger net
+		- 2 levels:
+			+ 1.5x faster after each 50 insects catched
+			+ switching from day to night after 100 insects catched
+	+ Features:
+		- Pause/ Unpause (by pressing P)
+		- Season switching
+		- Save the game and restore it
+		- Mouse
+		- Extract as gif or mp4 or?
+		- "IA" code with Lua?
+
+------
+
+TASKS
+
+1. Objects:  Nhu	
+	- Find pictures:
+		+ 2 types of good insects: bees and butterflies
+		+ The bad guy
+		+ The net & its bubble & its transparent rainbow bubble
+		+ 2 static backgrounds 
+		+ Bonuses: time extension, freeze, plus size
+	- Find music and short sounds
+
+2. Background:  Nhu
+	- Function for streaming music during the entire game
+	- Function for background:
+		+ switching from day to night after 100 insects catched
+		+ displaying background depending on the type of insects chosen
+
+3. The insects:  Nhu
+	- Function for randomly moving insects
+	- Function to identify EACH insect
+
+4. The net:  Tien
+	- Function for the net to catch the insects
+	- Function for 2 different sizes of the net:
+		+ increase size for 5 secs
+
+5. The net's transparent bubble:  Tien
+	- Function to gradually show the bubble when dragging the mouse
+	- Function to show the full bubble after dragging and letting go of the mouse
+	- Function to show the full transparent rainbow bubble when catching 5 insects
+
+6. When successfully catching insects:  Tien + Nhu
+	- Function to calculate the relative position of the net and the insects catched
+	- Function to count point
+	- Function to play short sounds
+
+7. To regulate the velocity of the insects:  Tien
+	- Normal at the beginning
+	- 1.5x faster after each 50 insects catched
+	- Stop the motion of the insects for 5 seconds when catching the "freeze" bonus
+
+8. To count time:  Dat
+	- 60 seconds/ round by default
+	- Increase time by 5 seconds when catching the "time extension" bonus
+
+9. Features:  Dat
+	- Function to detect the clicking of the mouse
+	- Function to detect the dragging of the mouse
+	- Function to pause/unpause the game
+	- Function to save the game and restore it
+

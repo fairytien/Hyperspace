@@ -1,0 +1,7 @@
+#!/bin/sh
+mkdir public
+mkdir profile
+mkdir missions
+chmod 775 public
+chmod 750 profile
+chmod 500 missions
