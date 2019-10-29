@@ -1,3 +1,6 @@
+# Input a trio of any numbers and check if that trio makes up a right triangle.
+# Raise ValueError if any of the input numbers is not integer or positive.
+
 def right_triangle_errors(a, b, c):
     if isinstance(a, int) and isinstance(b, int) and isinstance(c, int):
         if a > 0 and b > 0 and c > 0:
